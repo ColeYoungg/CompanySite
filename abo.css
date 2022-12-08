@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&family=Open+Sans&display=swap');
+
+body {
+    background-color: #1D2731;  
+  }
+  
+  
+  
+  #navigation {
+      display: flex;
+      left: 0;
+      top: 0;
+      background-color: rgba(29, 39, 49, 0.7); 
+      width: 100%;
+      z-index: 2;
+      position: absolute;
+      align-items: center;
+      justify-content: space-around;
+      
+  }
+  
+  #navigation a {
+      display: inline-block;
+      margin-top: 30px;
+      border: 2px solid white;
+      padding: 20px;
+      background-color: #474B4F;
+      color: white;
+      border-radius: 10px;
+      font-size: 20px;
+      opacity: 0.8;
+      margin: auto;
+  }
+
+  #navigation h3 {
+    font-size: 40px;
+    color: #C06014;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#navigation a {
+    text-decoration: none;
+    right: 0%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+  #click {
+    display: inline-block;
+    margin-top: 25px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    background-color: #4b5163;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    margin: auto;
+    transition: all 500ms;
+}
+
+
+#click:hover {
+    transform: scale(1.2);
+}
+
+#main {
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    color: #c5c1c0;
+    margin: 10px;
+}
+
+#main h3 {
+    color: #C06014;
+    font-family: 'Josefin Sans' sans-serif;
+    font-size: 30px;
+}
