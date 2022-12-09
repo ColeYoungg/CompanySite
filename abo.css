@@ -10,7 +10,7 @@ body {
       display: flex;
       left: 0;
       top: 0;
-      background-color: rgba(29, 39, 49, 0.7); 
+      background-color: rgba(16, 12, 8, 0.3); 
       width: 100%;
       z-index: 2;
       position: absolute;
@@ -70,10 +70,24 @@ body {
     top: 200px;
     color: #c5c1c0;
     margin: 10px;
+    font-size: 17px;
 }
 
 #main h3 {
     color: #C06014;
     font-family: 'Josefin Sans' sans-serif;
     font-size: 30px;
+}
+
+#main img {
+    width: 100%;
+}
+
+#timeline {
+text-align: left;
+}
+
+#timeline img{
+    height: 100%;
+    float: right;
 }

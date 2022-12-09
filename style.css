@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&family=Open+Sans&display=swap');
 
 body {
   background-color: #1D2731;  
@@ -36,14 +35,14 @@ body {
 #navigation h3 {
     font-size: 40px;
     color: #C06014;
-    font-family: 'Finlandica', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #navigation a {
     text-decoration: none;
     right: 0%;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #cover {
@@ -90,7 +89,7 @@ h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Finlandica', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     top: 250px;
 }
